@@ -1,0 +1,51 @@
+{
+  "name": "vue-h5-vant-template",
+  "version": "1.0.0",
+  "description": "A vue h5 vant template",
+  "author": "Gaoshiwei <1020431880@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vue-cli-service serve",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:stage": "vue-cli-service build --mode staging",
+    "build:prod": "vue-cli-service build",
+    "preview": "node build/index.js --preview",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vant": "^2.12.21",
+    "axios": "0.21.1",
+    "core-js": "3.14.0",
+    "echarts": "5.1.2",
+    "js-cookie": "2.2.1",
+    "normalize.css": "8.0.1",
+    "nprogress": "0.2.0",
+    "path-to-regexp": "2.4.0",
+    "vue": "2.6.14",
+    "vue-router": "3.5.1",
+    "vuex": "3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
+    "@vue/cli-plugin-eslint": "4.5.12",
+    "@vue/cli-service": "4.5.12",
+    "autoprefixer": "9.8.6",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "chalk": "4.1.0",
+    "connect": "3.7.0",
+    "eslint": "7.28.0",
+    "eslint-plugin-vue": "7.10.0",
+    "html-webpack-plugin": "4.5.2",
+    "mockjs": "1.1.0",
+    "runjs": "4.4.2",
+    "sass": "1.26.2",
+    "sass-loader": "8.0.2",
+    "script-ext-html-webpack-plugin": "2.1.5",
+    "serve-static": "1.14.1",
+    "svg-sprite-loader": "6.0.7",
+    "svgo": "2.3.0",
+    "vue-template-compiler": "2.6.14"
+  }
+}

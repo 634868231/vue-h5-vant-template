@@ -1,0 +1,94 @@
+@import 'util.scss';
+
+body {
+  height: 100%;
+  color: #303133;
+  overflow-x: hidden;
+  background: #f7f8fa;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* 页面路由切换动画 */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .35s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+/* 清除浮动 */
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+  }
+}
+
+/* set global text color */
+.text-default {
+  color: #303133;
+}
+
+.text-info {
+  color: #606266;
+}
+
+.text-desc {
+  color: #909399;
+}
+
+.text-primary {
+  color: #1890ff;
+}
+
+.text-success {
+  color: #19be6b;
+}
+
+.text-warning {
+  color: #ff9900;
+}
+
+.text-danger {
+  color: #ed4014;
+}
+
+// 页面布局公用样式
+.app-container {
+
+  /* 顶部 */
+  .header-container {}
+
+  /* 主要内容 */
+  .main-container {}
+
+  /* 底部 */
+  .footer-container {}
+
+}
