@@ -88,7 +88,7 @@ const constantRoutes = [
 ]
 
 const router = new VueRouter({
-  mode: 'hash', // hash or history
+  mode: 'history', // hash or history
   base: '/app/', // 路径访问加前缀的时候需要配置，需和vue.config.js中publicPath配置一样
   routes: constantRoutes
 })
